@@ -9,7 +9,7 @@ public class Exercise10 {
         while( i < 100) {
             i++;
             result += i;
-            System.out.println(" Сумма чисел от 1 до" + " " + i + " " + " равна : " + " " + result);
         }
+        System.out.println(" Сумма чисел от 1 до" + " " + i + " " + " равна : " + " " + result);
     }
 }
