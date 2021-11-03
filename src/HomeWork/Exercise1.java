@@ -12,8 +12,9 @@ public class Exercise1 {
         a = in.nextInt();
         System.out.println("Введите число b:  ");
         b = in.nextInt();
-        for(int i = a - b , j = a + b; i <= j; i++ ){
+        for(int i = a - b ; i <= (a + b); i++ ){ //Исправлено условие  сравнения
             System.out.println(i);
         }
     }
 }
+
